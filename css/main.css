@@ -188,7 +188,7 @@ padding: 20px;
 margin-top: 10px;
 }
 
-.editors-pick-header .logo-newsweek{
+ .logo-newsweek{
  width: 30px;
 	height: 30px;
 	margin-right: 10px;
@@ -198,7 +198,29 @@ margin-top: 10px;
 	width: 23.5%;
 }
 
+.featured-slideshows-articles article {
+	width: 31.5%;
+	margin-bottom: 20px;
+}
+
 .features-image {
 	width: 100%;
+}
+#rank-number {
+	width: 72px;
+	height: 50px;
+	display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.us-section-articles .featured {
+	width: 32%;
+}
+
+.us-section-articles .us-side-articles{
+	width: 32%;
 }
 
