@@ -216,11 +216,12 @@ margin-top: 10px;
     z-index: 1;
 }
 
-.us-section-articles .featured {
+.main-section-articles .featured {
 	width: 32%;
 }
 
-.us-section-articles .us-side-articles{
-	width: 32%;
+.newsletter-image img{
+	width: 170px;
+	height: 100%;
 }
 
