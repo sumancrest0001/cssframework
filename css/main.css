@@ -4,6 +4,11 @@
 	padding: 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+}
+
 body{
 	width: 95%;
 	margin: auto;
@@ -216,12 +221,129 @@ margin-top: 10px;
     z-index: 1;
 }
 
+/* categories sections*/
+
 .main-section-articles .featured {
 	width: 32%;
 }
 
-.newsletter-image img{
+.main-section-header{
+	padding-top: 1em;
+	font-size: 22px;
+	line-height: 24px;
+	color: #f72210;
+}
+
+.featured h3 {
+	padding-top: 1em;
+	font-size: 22px;
+	line-height: 24px;
+}
+
+.featured h3 a {
+	color: #000;
+	text-decoration: none;
+}
+
+.featured h3 a:hover {
+	text-decoration: underline;
+	text-decoration-color: #f72210;
+}
+.featured span a img {
+	height: 265px;
+}
+.featured article h4 {
+	font-size: 1.063rem;
+	line-height: 1.3125rem;
+	height: 90px;
+}
+.featured article h4 a {
+	color: #000;
+	text-decoration: none;
+}
+
+.featured article h4 :hover {
+	color: #f72210;
+}
+/*subscriber-newsletter section*/
+
+.card-image img{
 	width: 170px;
 	height: 100%;
+}
+
+.subscribe-heading {
+	font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #f72210;
+    font-weight: 700;
+}
+
+.subscribe-contents div h3 {
+	font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+.subscribe-contents div p {
+	font-size: 15px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #333;
+}
+
+.btn-subscribe, .signup-button {
+	background-color: #f72210;
+	color: #fff;
+}
+
+.subscribe-section {
+background-color: #f4f5f6;
+}
+
+.newsletter-content {
+	border: 1px solid #ddd;
+}
+
+/* footer section*/
+.logo img {
+	width:15rem;
+	height: 2.3rem;
+}
+.upper-footer {
+	border-bottom: 1px solid #ddd;
+	margin: auto;
+}
+
+.upper-footer-left p {
+	padding-top: 1.3rem;
+	font-size: 0.75rem;
+	line-height: 0.75rem;
+	font-family: 'Lato', sans-serif;
+	 font-weight: 400;
+}
+
+.menu {
+	list-style: none;
+	display: inline;
+}
+.menu li {
+display: inline-block;
+padding: 0 10px;
+border-right: 1px solid #aaa;
+line-height: 15px;
+}
+
+ .menu li a{
+	text-decoration: none;
+	color: #666;
+	font-size: 14px;
+	line-height: 15px;
+	 font-family: 'Lato', sans-serif;
+	 font-weight: 400;
+}
+.menu li a:hover {
+	color: #000;
 }
 
