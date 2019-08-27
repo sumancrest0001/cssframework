@@ -14,10 +14,6 @@ In this project, bootstrap framework is used and the web-page is fully responsiv
 #cd cssframework
 #Double click index.html - It will open in your browser
 
-cd cssframework
-Double click index.html - It will open in your browser
->>>>>>> 45a734da21dc39fc938865602ae6153c23b9b52a
-
 # Contributor
 
 sumancrest0001 (https://github.com/sumancrest0001)
