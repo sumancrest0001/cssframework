@@ -127,20 +127,43 @@ body {
   text-decoration: none;
 }
 
-.featured h3 a:hover {
-  text-decoration: underline;
-  text-decoration-color: #f72210;
-}
-
 .featured article h4 {
   font-size: 1.063rem;
   line-height: 1.3125rem;
   height: 5.625rem;
 }
 
+
+.first-article h2 a {
+  color: #000;
+}
+
 .featured article h4 a {
   color: #000;
   text-decoration: none;
+}
+
+.page-nav :first-child,
+.page-nav :last-child {
+  border-width: 0;
+}
+
+.top-articles h5 a {
+  text-decoration: none;
+  color: #272727;
+}
+
+.features-articles h3 a {
+  color: #000;
+}
+
+.individiual-opinion h6 {
+  font: 700 1.0625rem/1.3125rem "Roboto Condensed", sans-serif;
+}
+
+.featured h3 a:hover {
+  text-decoration: underline;
+  text-decoration-color: #f72210;
 }
 
 .featured article h4 :hover {
@@ -149,11 +172,6 @@ body {
 
 .page-nav > li > a:hover {
   color: #f72210 !important;
-}
-
-.page-nav :first-child,
-.page-nav :last-child {
-  border-width: 0;
 }
 
 #search {
@@ -172,7 +190,7 @@ body {
 .section-header {
   font-size: 1rem;
   line-height: 1rem;
-  color: rgba(3, 3, 3, .4);
+  color: rgba(3, 3, 3, 0.4);
   font-weight: 700;
   font-family: 'Roboto Condensed', sans-serif;
   margin-bottom: 0.5rem;
@@ -183,10 +201,6 @@ body {
   line-height: 1.5rem;
   font-weight: 700;
   font-family: "Roboto Condensed", sans-serif;
-}
-
-.first-article h2 a {
-  color: #000;
 }
 
 .first-article h2 a:hover {
@@ -218,16 +232,11 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-.top-articles h5 a {
-  text-decoration: none;
-  color: #272727;
-}
-
 .culture-stories {
   background-color: #f4f5f7;
 }
 
-.culture-stories>div {
+.culture-stories > div {
   font-size: 1rem;
   line-height: 1rem;
   font-weight: 700;
@@ -244,6 +253,10 @@ body {
   color: #000;
 }
 
+.features-articles h3 a:hover {
+  text-decoration-color: #f72210;
+}
+
 .more-stories article h4 a:hover {
   text-decoration-color: #f72210;
 }
@@ -258,7 +271,7 @@ body {
   font: bold 1.0625rem/1rem "Roboto Condensed", sans-serif;
   color: #f72210;
   padding: 0.5rem 0.9375rem 0.5625rem;
-  background-color: rgba(255, 255, 255, .9);
+  background-color: rgba(255, 255, 255, 0.9);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -274,14 +287,6 @@ body {
   line-height: 1.5rem;
   font-weight: 700;
   margin-top: 0.5rem;
-}
-
-.features-articles h3 a {
-  color: #000;
-}
-
-.features-articles h3 a:hover {
-  text-decoration-color: #f72210;
 }
 
 .features-articles p,
@@ -300,8 +305,7 @@ body {
 }
 
 .individiual-opinion:not(:last-child),
-.more-stories article:not(:last-child),
-.latest-article:not(:last-child) {
+.more-stories article:not(:last-child) {
   border-bottom: solid 0.03125rem #ddd;
 }
 
@@ -328,8 +332,11 @@ body {
   padding: 0.5rem 0;
 }
 
-.latest-article h6,
-.individiual-opinion h6 {
+.latest-article:not(:last-child) {
+  border-bottom: solid 0.03125rem #ddd;
+}
+
+.latest-article h6 {
   font: 700 1.0625rem/1.3125rem "Roboto Condensed", sans-serif;
 }
 
@@ -499,7 +506,7 @@ body {
 }
 
 .editors-pick-articles {
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
 .editors-pick-articles article {
@@ -601,6 +608,7 @@ body {
 }
 
 /* footer section */
+
 .logo img {
   width: 15rem;
   height: 2.3rem;
@@ -654,6 +662,7 @@ body {
 }
 
 /* media queries for responsiveness */
+
 /* first breakpoint for tablets 990px */
 
 @media screen and (max-width: 991px) {
@@ -755,46 +764,49 @@ body {
 /* media queries for 768Px screen size */
 
 @media screen and (max-width: 768px) {
+   
+  .featured article {
+    height: 11.25rem;
+  }
+
+  .main-section-articles .featured,
+  .editors-pick-articles article {
+    width: 100%;
+  }
 
   .culture-stories div article {
-	width:100%;
-  }
-
-  .latest-article {
-	height: 11.25rem;
-  }
-
-  .latest-article .latest-images {
-	height: 10.75rem;
-	width: 16.125rem;
-  }
-
-  .magazine-section .magazine-article,
-  .editors-pick-articles article,
-  .bottom-magazine-article,
-  .featured-slideshows-articles article,
-  .main-section-articles .featured {
 	width: 100%;
   }
 
+  .latest-article {
+	  height: 11.25rem;
+  }
+
+  .latest-article .latest-images {
+	  height: 10.75rem;
+	  width: 16.125rem;
+  }
+
+  .magazine-section .magazine-article,
+  .bottom-magazine-article,
+  .featured-slideshows-articles article {
+	  width: 100%;
+  }
+
   .category span {
-	font-size: 1rem;
+	  font-size: 1rem;
   }
 
   .featured span a img {
-	height: auto;
-  }
-
-  .featured article {
-	height: 11.25rem;
+	  height: auto;
   }
 
   .side-article-image {
-	height: 10.75rem;
-	width: 16.125rem;
+	  height: 10.75rem;
+	  width: 16.125rem;
   }
 
   .upper-footer-right {
-	flex-direction: row;
+	  flex-direction: row;
   }
 }
