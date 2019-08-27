@@ -821,6 +821,6 @@ body {
   }
 
   .upper-footer-right {
-	  flex-direction: row;
+      flex-direction: row;
   }
 }
