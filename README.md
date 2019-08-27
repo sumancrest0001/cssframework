@@ -10,8 +10,9 @@ In this project, bootstrap framework is used and the web-page is fully responsiv
 # How to install
 
 # git clone https://github.com/sumancrest0001/cssframework.git
-cd cssframework
-Double click index.html - It will open in your browser
+
+#cd cssframework
+#Double click index.html - It will open in your browser
 
 # Contributor
 
