@@ -142,7 +142,6 @@ body {
   color: #272727;
 }
 
-
 .features-articles h3 a {
   color: #000;
 }
@@ -159,6 +158,42 @@ body {
 
 .signup-section p a {
   color: #333;
+}
+
+.magazine-article h5 a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.25rem;
+  line-height: 1.25rem;
+  font-weight: 700;
+}
+
+.category span a {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.features-articles h4 a {
+  font-size: 1.125rem;
+  line-height: 1.125rem;
+  color: #000;
+  text-decoration: none;
+  margin-top: 0.625rem;
+}
+
+.bottom-magazine-article h5 a {
+  line-height: 1.25rem;
+  font-size: 1.25rem;
+  color: #000;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #666;
+  font-size: 0.875rem;
+  line-height: 0.935rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
 }
 
 .featured article h4 a {
@@ -286,6 +321,15 @@ body {
   color: #f72210;
 }
 
+.bottom-magazine-article h5 a:hover {
+  text-decoration: underline;
+  text-decoration-color: #f72210;
+}
+
+.menu li a:hover {
+  color: #000;
+}
+
 .more-stories article h4 a:hover {
   text-decoration-color: #f72210;
 }
@@ -319,7 +363,28 @@ body {
 }
 
 .features-articles p,
-.first-article p,
+.first-article p {
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+  color: #333;
+}
+
+
+.signup-section p {
+  margin-top: 1.25rem;
+  font: bold 0.9375rem/0.9375rem "Roboto", sans-serif;
+}
+
+.featured p {
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #333;
+}
+
 .more-stories article p {
   font-size: 0.9375rem;
   line-height: 1.25rem;
@@ -333,7 +398,19 @@ body {
   padding: 0.5rem 0;
 }
 
-.individiual-opinion:not(:last-child),
+.individiual-opinion:not(:last-child) {
+  border-bottom: solid 0.03125rem #ddd;
+}
+
+.editors-pick-articles article {
+  width: 23.5%;
+}
+
+.featured-slideshows-articles article {
+  width: 31.5%;
+  margin-bottom: 1.25rem;
+}
+
 .more-stories article:not(:last-child) {
   border-bottom: solid 0.03125rem #ddd;
 }
@@ -393,6 +470,24 @@ body {
   text-transform: uppercase;
 }
 
+.magazine-article img {
+  width: 100%;
+}
+
+.bottom-magazine-article {
+  width: 23.5%;
+}
+
+.card-image-newsletter img {
+  width: 10.625rem;
+  height: 17rem;
+}
+
+.logo img {
+  width: 15rem;
+  height: 2.3rem;
+}
+
 .magazine-header span img {
   width: 1.875rem;
   height: 1.875rem;
@@ -403,11 +498,6 @@ body {
   width: 1.875rem;
   height: 1.875rem;
   margin-right: 0.625rem;
-}
-
-.signup-section p {
-  margin-top: 1.25rem;
-  font: bold 0.9375rem/0.9375rem "Roboto", sans-serif;
 }
 
 .features-articles-content {
@@ -437,68 +527,20 @@ body {
   width: 32%;
 }
 
-.magazine-article h5 a {
-  color: #000;
-  text-decoration: none;
-  font-size: 1.25rem;
-  line-height: 1.25rem;
-  font-weight: 700;
-}
-
-.category span a {
-  color: #f72210;
-  text-decoration: none;
-}
-
 .features-articles h4:hover {
   background-color: #ccc;
-}
-
-.features-articles h4 a {
-  font-size: 1.125rem;
-  line-height: 1.125rem;
-  color: #000;
-  text-decoration: none;
-  margin-top: 0.625rem;
-}
-
-.magazine-article img {
-  width: 100%;
 }
 
 .magazine-bottom {
   flex-wrap: wrap;
 }
 
-.bottom-magazine-article {
-  width: 23.5%;
-}
-
 .bottom-magazine-article img {
   width: 100%;
 }
 
-.bottom-magazine-article h5 a {
-  line-height: 1.25rem;
-  font-size: 1.25rem;
-  color: #000;
-}
-
-.bottom-magazine-article h5 a:hover {
-  text-decoration: underline;
-  text-decoration-color: #f72210;
-}
-
 .bottom-magazine-article #bottom-magazine-article-4-title a {
   margin-top: 0.625rem;
-}
-
-.featured p {
-  font-size: 0.9375rem;
-  line-height: 1.25rem;
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  color: #333;
 }
 
 /* featured articles */
@@ -513,17 +555,8 @@ body {
   flex-wrap: wrap;
 }
 
-.editors-pick-articles article {
-  width: 23.5%;
-}
-
 .featured-slideshows-articles {
   flex-wrap: wrap;
-}
-
-.featured-slideshows-articles article {
-  width: 31.5%;
-  margin-bottom: 1.25rem;
 }
 
 #rank-number {
@@ -571,11 +604,6 @@ body {
   height: 100%;
 }
 
-.card-image-newsletter img {
-  width: 10.625rem;
-  height: 17rem;
-}
-
 .subscribe-heading {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 1rem;
@@ -613,11 +641,6 @@ body {
 
 /* footer section */
 
-.logo img {
-  width: 15rem;
-  height: 2.3rem;
-}
-
 .top-footer-section {
   border-bottom: 0.063rem solid #ddd;
 }
@@ -652,25 +675,11 @@ body {
   line-height: 0.935rem;
 }
 
-.menu li a {
-  text-decoration: none;
-  color: #666;
-  font-size: 0.875rem;
-  line-height: 0.935rem;
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-}
-
-.menu li a:hover {
-  color: #000;
-}
-
 /* media queries for responsiveness */
 
 /* first breakpoint for tablets 990px */
 
 @media screen and (max-width: 991px) {
-  
   * {
     font-size: 90%;
   }
@@ -776,7 +785,11 @@ body {
   .editors-pick-articles article {
     width: 100%;
   }
-
+  
+  .featured-slideshows-articles article {
+    width: 100%;
+  }
+  
   .culture-stories div article {
     width: 100%;
   }
@@ -791,8 +804,7 @@ body {
   }
 
   .magazine-section .magazine-article,
-  .bottom-magazine-article,
-  .featured-slideshows-articles article {
+  .bottom-magazine-article {
 	  width: 100%;
   }
 
