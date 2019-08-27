@@ -137,6 +137,30 @@ body {
   color: #000;
 }
 
+.top-articles h5 a {
+  text-decoration: none;
+  color: #272727;
+}
+
+
+.features-articles h3 a {
+  color: #000;
+}
+
+.individiual-opinion h6 a {
+  text-decoration: none;
+  color: #000;
+}
+
+.latest-article h6 a {
+  text-decoration: none;
+  color: #000;
+}
+
+.signup-section p a {
+  color: #333;
+}
+
 .featured article h4 a {
   color: #000;
   text-decoration: none;
@@ -147,17 +171,22 @@ body {
   border-width: 0;
 }
 
-.top-articles h5 a {
-  text-decoration: none;
-  color: #272727;
+.individiual-opinion h6 {
+  font: 700 1.0625rem/1.3125rem "Roboto Condensed", sans-serif;
 }
 
-.features-articles h3 a {
+.more-stories article h4 a {
   color: #000;
 }
 
-.individiual-opinion h6 {
-  font: 700 1.0625rem/1.3125rem "Roboto Condensed", sans-serif;
+.signup-section .sign-up a {
+  text-decoration: none;
+  color: #fff;
+  width: 0.625rem;
+  padding: 0.625rem 0.3125rem 0.625rem 0.75rem;
+  font: bold 1.125rem/1.125rem "Roboto", sans-serif;
+  margin-top: 0;
+  background-color: #666;
 }
 
 .featured h3 a:hover {
@@ -248,12 +277,13 @@ body {
   line-height: 1.25rem;
 }
 
-.more-stories article h4 a {
-  color: #000;
-}
-
 .features-articles h3 a:hover {
   text-decoration-color: #f72210;
+}
+
+.individiual-opinion h6 a:hover,
+.latest-article h6 a:hover, {
+  color: #f72210;
 }
 
 .more-stories article h4 a:hover {
@@ -339,17 +369,6 @@ body {
   font: 700 1.0625rem/1.3125rem "Roboto Condensed", sans-serif;
 }
 
-.latest-article h6 a,
-.individiual-opinion h6 a {
-  text-decoration: none;
-  color: #000;
-}
-
-.latest-article h6 a:hover,
-.individiual-opinion h6 a:hover {
-  color: #f72210;
-}
-
 .latest-images {
   width: 8.4375rem;
 }
@@ -374,14 +393,10 @@ body {
   text-transform: uppercase;
 }
 
-.signup-section .sign-up a {
-  text-decoration: none;
-  color: #fff;
-  width: 0.625rem;
-  padding: 0.625rem 0.3125rem 0.625rem 0.75rem;
-  font: bold 1.125rem/1.125rem "Roboto", sans-serif;
-  margin-top: 0;
-  background-color: #666;
+.magazine-header span img {
+  width: 1.875rem;
+  height: 1.875rem;
+  margin-right: 0.625rem;
 }
 
 .signup-section div span img {
@@ -395,22 +410,12 @@ body {
   font: bold 0.9375rem/0.9375rem "Roboto", sans-serif;
 }
 
-.signup-section p a {
-  color: #333;
-}
-
 .features-articles-content {
   border: 0.063rem solid #ddd;
 }
 
 .magazine-header {
   justify-content: center;
-}
-
-.magazine-header span img {
-  width: 1.875rem;
-  height: 1.875rem;
-  margin-right: 0.625rem;
 }
 
 .category {
@@ -665,7 +670,7 @@ body {
 /* first breakpoint for tablets 990px */
 
 @media screen and (max-width: 991px) {
-
+  
   * {
     font-size: 90%;
   }
@@ -714,7 +719,7 @@ body {
 
   .btn-subscribe {
     font-size: 1.125rem;
-    line-height: 0.875rem;
+    line-height: 0.875rem:
     color: #f72210;
     background-color: #fff;
     margin-left: 0.625rem;
@@ -763,7 +768,6 @@ body {
 /* media queries for 768Px screen size */
 
 @media screen and (max-width: 768px) {
-   
   .featured article {
     height: 11.25rem;
   }
@@ -774,11 +778,11 @@ body {
   }
 
   .culture-stories div article {
-	  width: 100%;
+    width: 100%;
   }
 
   .latest-article {
-	  height: 11.25rem;
+    height: 11.25rem;
   }
 
   .latest-article .latest-images {
