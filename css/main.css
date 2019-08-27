@@ -371,7 +371,6 @@ body {
   color: #333;
 }
 
-
 .signup-section p {
   margin-top: 1.25rem;
   font: bold 0.9375rem/0.9375rem "Roboto", sans-serif;
@@ -383,6 +382,14 @@ body {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   color: #333;
+}
+
+.upper-footer-left p {
+  padding-top: 1.3rem;
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
 }
 
 .more-stories article p {
@@ -488,6 +495,10 @@ body {
   height: 2.3rem;
 }
 
+.bottom-magazine-article img {
+  width: 100%;
+}
+
 .magazine-header span img {
   width: 1.875rem;
   height: 1.875rem;
@@ -533,10 +544,6 @@ body {
 
 .magazine-bottom {
   flex-wrap: wrap;
-}
-
-.bottom-magazine-article img {
-  width: 100%;
 }
 
 .bottom-magazine-article #bottom-magazine-article-4-title a {
@@ -649,14 +656,6 @@ body {
   border-bottom: 0.063rem solid #ddd;
   width: 100%;
   margin: auto;
-}
-
-.upper-footer-left p {
-  padding-top: 1.3rem;
-  font-size: 0.75rem;
-  line-height: 0.75rem;
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
 }
 
 .upper-footer-right {
@@ -789,7 +788,7 @@ body {
   .featured-slideshows-articles article {
     width: 100%;
   }
-  
+
   .culture-stories div article {
     width: 100%;
   }
