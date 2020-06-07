@@ -17,9 +17,9 @@ In this project, bootstrap framework is used and the web-page is fully responsiv
 #open the index file on live server.
 
 # Contributor
-[sumancrest0001](https://github.com/sumancrest0001)
-[@creatsuman0001]( https://twitter.com/crestsuman0001)
-[Suman Shrestha](https://www.linkedin.com/in/suman-shrestha0001)
+-Github: [sumancrest0001](https://github.com/sumancrest0001)
+-Twitter: [@creatsuman0001]( https://twitter.com/crestsuman0001)
+-LinkedIn: [Suman Shrestha](https://www.linkedin.com/in/suman-shrestha0001)
 
 # License
 MIT Licensed
